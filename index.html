@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My Baby 💗</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="hearts"></div>
+
+<!-- OPENING -->
+<section class="screen active" id="opening">
+    <div class="intro">
+        <div class="big-opening-heart">♡</div>
+
+        <h1>For you, baby</h1>
+
+        <p>I made something special for you.</p>
+
+        <button onclick="openLetter()">Openn💌</button>
+    </div>
+</section>
+
+
+<!-- PAPER -->
+<section class="screen" id="paperScreen">
+
+    <div class="paper-container">
+
+        <div class="paper crumpled" id="paper">
+
+            <div class="paper-content">
+
+                <div class="paper-heart">♡</div>
+
+                <h2>Happy Monthsary, Baby</h2>
+
+                <p>
+                    I wrote something from my heart,
+                    just for you.
+                </p>
+
+                <button onclick="uncrumple()">
+                    Unfold My Letter 💗
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- LETTER PAGE 1 -->
+<section class="screen letter-screen" id="page1">
+
+    <div class="letter">
+
+        <div class="letter-decoration">♡</div>
+
+        <h2>Dear Baby,</h2>
+
+        <p>
+            Happy Monthsary to us, baby! 🥹 Honestly, I don’t think these
+            letters and words I say can fully express my love for you.
+            And I’m here, writing this letter for you, because you need
+            to know how deeply grateful I am to have you in my life.
+        </p>
+
+        <button onclick="nextPage(1)">Next →</button>
+
+    </div>
+
+</section>
+
+
+<!-- LETTER PAGE 2 -->
+<section class="screen letter-screen" id="page2">
+
+    <div class="letter">
+
+        <div class="letter-decoration">🌷</div>
+
+        <p>
+            Every time we spend time together, whether we’re having deep
+            talks, laughs, or enjoying each other’s presence, I really do
+            appreciate these moments with you.
+        </p>
+
+        <p>
+            You have become so important and such a beautiful part of my
+            life. You are someone I look forward to talking to, someone
+            who can make me smile without trying, and your love makes
+            everything lighter.
+        </p>
+
+        <p>
+            These times made me realize how much you have become a part
+            of my life, and I’m so grateful I can call you my baby.
+        </p>
+
+        <button onclick="nextPage(2)">Next →</button>
+
+    </div>
+
+</section>
+
+
+<!-- LETTER PAGE 3 -->
+<section class="screen letter-screen" id="page3">
+
+    <div class="letter">
+
+        <div class="letter-decoration">♡</div>
+
+        <p>
+            I want you to know how much I appreciate you—not only for
+            the things you do for me, but for who you are.
+        </p>
+
+        <p>
+            I admire the way you show your true self to me, the way you
+            care so much for the people you love, and all those things
+            that express you.
+        </p>
+
+        <p>
+            You never have to be perfect for me. You never have to change
+            yourself just to feel worthy of being loved. I want you to
+            know that you’re already enough.
+        </p>
+
+        <p>
+            I appreciate and love you for who you are, including those
+            parts you’re struggling to appreciate. You deserve to be
+            loved, understood, and treated with respect.
+        </p>
+
+        <button onclick="nextPage(3)">Next →</button>
+
+    </div>
+
+</section>
+
+
+<!-- LETTER PAGE 4 -->
+<section class="screen letter-screen" id="page4">
+
+    <div class="letter">
+
+        <div class="letter-decoration">🌸</div>
+
+        <p>
+            I also know our relationship is not always perfect. There
+            are times when we misunderstand each other, or struggle to
+            express what we’re feeling.
+        </p>
+
+        <p>
+            But I always hope when that happens, we choose to understand
+            rather than not talk to each other and leave things unfixed,
+            and fix it together rather than immediately giving up on
+            each other.
+        </p>
+
+        <p>
+            I don’t promise that I will always know exactly what to say
+            or that I will never make mistakes. I’m still learning,
+            becoming a better version of myself.
+        </p>
+
+        <p>
+            But I can promise that I will continue trying.
+        </p>
+
+        <button onclick="nextPage(4)">Next →</button>
+
+    </div>
+
+</section>
+
+
+<!-- LETTER PAGE 5 -->
+<section class="screen letter-screen" id="page5">
+
+    <div class="letter">
+
+        <div class="letter-decoration">♡</div>
+
+        <p>
+            I want to know how to love you better, become someone who
+            makes you feel safe, and appreciated.
+        </p>
+
+        <p>
+            If you ever have a difficult day, I want you to know that
+            you can talk to me. If something makes you happy, I want
+            to hear about it.
+        </p>
+
+        <p>
+            If you accomplish something, I want to celebrate it with you.
+            If you feel like giving up, I want to remind you of how
+            strong and capable you are.
+        </p>
+
+        <p>
+            I want to be someone who supports you not only when everything
+            is going well, but also when things become difficult.
+        </p>
+
+        <button onclick="nextPage(5)">Next →</button>
+
+    </div>
+
+</section>
+
+
+<!-- LETTER PAGE 6 -->
+<section class="screen letter-screen" id="page6">
+
+    <div class="letter">
+
+        <div class="letter-decoration">🌷</div>
+
+        <p>
+            Thank you for every time you make me laugh, smile, cheer me
+            up, lighten my day, every moment of reassurance, and every
+            moment we created together.
+        </p>
+
+        <p>
+            Thank you for giving me your time and efforts and letting me
+            in your life. I genuinely appreciate every moment you choose
+            to spend with me.
+        </p>
+
+        <p>
+            Sometimes, I wish you could see yourself the way I see you.
+            Maybe then you would understand why I admire and appreciate
+            you so much.
+        </p>
+
+        <button onclick="nextPage(6)">Next →</button>
+
+    </div>
+
+</section>
+
+
+<!-- LETTER PAGE 7 -->
+<section class="screen letter-screen" id="page7">
+
+    <div class="letter">
+
+        <div class="letter-decoration">♡</div>
+
+        <p>
+            You are someone I can rely on every time I’m having my
+            hardest days.
+        </p>
+
+        <p>
+            I don’t want to rush through the months just so we can say
+            we’ve been together for a certain amount of time. I want to
+            appreciate each month as it comes.
+        </p>
+
+        <p>
+            I want to experience more moments with you, learn more about
+            you, grow with you, and continue loving and creating memories
+            that we can look back on someday.
+        </p>
+
+        <button onclick="nextPage(7)">
+            One Last Thing... 
+        </button>
+
+    </div>
+
+</section>
+
+
+<!-- TRANSITION -->
+<section class="screen" id="reasonsIntro">
+
+    <div class="intro">
+
+        <div class="big-opening-heart">♡</div>
+
+        <h1>Wait..</h1>
+
+        <p>
+            I still have something else for you.
+        </p>
+
+        <button onclick="startReasons()">
+            143 Reasons 💗
+        </button>
+
+    </div>
+
+</section>
+
+
+<!-- REASONS -->
+<section class="screen" id="reasonsPage">
+
+    <div class="reason-container">
+
+        <div class="reason-top">♡</div>
+
+        <p class="reason-number" id="reasonNumber">
+            1 / 143
+        </p>
+
+        <div class="reason-card">
+
+            <span id="reasonText">
+                I love your eyes
+            </span>
+
+        </div>
+
+        <div class="reason-buttons">
+
+            <button id="prevButton" onclick="previousReason()">
+                ←
+            </button>
+
+            <button onclick="nextReason()">
+                Next 💗
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- FINAL -->
+<section class="screen" id="finalPage">
+
+    <div class="final-letter">
+
+        <div class="final-heart">♥</div>
+
+        <h1>143 Reasons...</h1>
+
+        <p>
+            And somehow, even after 143 reasons...
+        </p>
+
+        <p>
+            I still feel like there are a million more reasons
+            I could give you.
+        </p>
+
+        <div class="final-message">
+
+            <p>
+                Lastly, these 143 reasons aren’t enough to show my love
+                for you.
+            </p>
+
+            <p>
+                I love you more than these words that I say.
+                I love you more than anything, baby.
+            </p>
+
+            <p>
+                I love you so much, my baby. I hope that you know that
+                I am always here for you.
+            </p>
+
+            <p>
+                Baby, I’m always here if you have a bad day, omki?
+                I’m your pahinga and kakampi sa lahat. :)
+            </p>
+
+        </div>
+
+        <h2>Happy Monthsary to us 🥹</h2>
+
+        <h1 class="love">
+            I Love You, Baby 💗
+        </h1>
+
+        <div class="final-hearts">
+            ♡ ♥ ♡ ♥ ♡
+        </div>
+
+    </div>
+
+</section>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
